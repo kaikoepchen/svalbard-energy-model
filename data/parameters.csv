@@ -1,0 +1,59 @@
+technology,year,parameter,value,unit,source
+hot water storage,2030,investment,200,EUR/kW,https://ens.dk/sites/ens.dk/files/Analyser/technology_data_catalogue_for_energy_storage.pdf
+hot water storage,2030,standing loss,1,%/day,https://hal.archives-ouvertes.fr/hal-01118538/document
+hot water storage,2030,lifetime,10,years,paper
+hot water storage,2030,FOM,1,%/year,assumption
+hot storage thermal generator,2030,investment,100,EUR/kW,https://www.energy.gov/sites/prod/files/2016/09/f33/CHP-Steam%20Turbine.pdf
+hot storage thermal generator,2030,efficiency,0.98,per unit,https://www.siemensgamesa.com/products-and-services/hybrid-and-storage/thermal-energy-storage-with-etes
+hot storage thermal generator,2030,lifetime,20,years,https://www.siemensgamesa.com/products-and-services/hybrid-and-storage/thermal-energy-storage-with-etes
+hot storage thermal generator,2030,FOM,0.5,%/year,https://www.siemensgamesa.com/products-and-services/hybrid-and-storage/thermal-energy-storage-with-etes
+central heat pump,2030,investment,1000,EUR/kW,https://backend.orbit.dtu.dk/ws/portalfiles/portal/150813986/CONECT_Pieper_Allocation_of_investment_costs_for_large_scale_heat_pumps.pdf
+central heat pump,2030,efficiency,3,per unit,assumption
+onwind,2030,lifetime,30,years,DEA https://ens.dk/en/our-services/projections-and-models/technology-data
+onwind,2030,investment,6800,EUR/kWel,DEA https://ens.dk/en/our-services/projections-and-models/technology-data
+onwind,2030,FOM,0.5,%/year,DEA https://ens.dk/en/our-services/projections-and-models/technology-data
+onwind,2030,VOM,4,EUR/MWhel,DEA https://ens.dk/en/our-services/projections-and-models/technology-data
+onwind,2030,p_nom_max,327,MW,KoszutaGambhavaandOpedal2019
+Ice_wind,2030,lifetime,30,years,assumption
+Ice_wind,2030,investment,2500,EUR/kWel,assumption
+Ice_wind,2030,FOM,2,%/years,assumption
+Ice_wind,2030,VOM,0.0004,EUR/kWh,assumption
+solar,2030,lifetime,30,years,DEA https://ens.dk/en/our-services/projections-and-models/technology-data
+solar_park,2030,investment,3570,EUR/kWel,DEA https://ens.dk/en/our-services/projections-and-models/technology-data
+solar_park,2030,FOM,2,%/year,DIW DataDoc http://hdl.handle.net/10419/80348
+solar_park,2030,VOM,0.01,EUR/MWhel,RES costs made up to fix curtailment order
+solar_park,2030,p_nom_max,46,MW,KoszutaGambhavaandOpedal2019
+solar_roof, 2030, investment, 2800,EUR/kWel,Mons
+solar_roof,2030,lifetime, 30, years,
+solar_roof,2030,FOM,2,%/year,DIW DataDoc http://hdl.handle.net/10419/80348
+solar_roof,2030,VOM,0.01,EUR/MWhel,RES costs made up to fix curtailment order
+electrolysis,2030,investment,1000,EUR/kWel,Palzer Thesis
+electrolysis,2030,FOM,2,%/year,NREL http://www.nrel.gov/docs/fy09osti/45873.pdf; budischak2013
+electrolysis,2030,lifetime,10,years,NREL http://www.nrel.gov/docs/fy09osti/45873.pdf; budischak2013
+electrolysis,2030,efficiency,0.6,per unit,NREL http://www.nrel.gov/docs/fy09osti/45873.pdf; budischak2013
+fuel cell,2030,investment,2200,EUR/kWel,NREL http://www.nrel.gov/docs/fy09osti/45873.pdf; budischak2013
+fuel cell,2030,FOM,2,%/year,NREL http://www.nrel.gov/docs/fy09osti/45873.pdf; budischak2013
+fuel cell,2030,lifetime,15,years,NREL http://www.nrel.gov/docs/fy09osti/45873.pdf; budischak2013
+fuel cell,2030,efficiency,0.6,per unit,NREL http://www.nrel.gov/docs/fy09osti/45873.pdf; budischak2013 conservative 2020
+fuel cell,2030,VOM, 0.0003,EUR/kWh,paper
+hydrogen storage,2030,investment,20,USD/kWh,budischak2013
+hydrogen storage,2030,lifetime,20,years,budischak2013
+hydrogen storage,2030,standing loss,0.03317327062341,%/day,assumption
+hydrogen storage,2030,FOM,1,%/year,paper
+battery inverter,2030,investment,411,USD/kWel,budischak2013
+battery inverter,2030,lifetime,20,years,budischak2013
+battery inverter,2030,efficiency,0.9,per unit charge/discharge,budischak2013; Lund and Kempton (2008) http://dx.doi.org/10.1016/j.enpol.2008.06.007
+battery inverter,2030,FOM,3,%/year,budischak2013
+battery inverter,2030,VOM,0.000023,EUR/kWh,paper
+battery storage,2030,investment,180,USD/kWh,https://about.bnef.com/blog/battery-pack-prices-cited-below-100-kwh-for-the-first-time-in-2020-while-market-average-sits-at-137-kwh/
+battery storage,2030,lifetime,15,years,budischak2013
+battery storage,2030,FOM,3,%/year,paper
+battery storage,2030,VOM,0.0000023,EUR/kWh,paper
+curtailment,2030,VOM,1000,EUR/kWh,assumption
+Diesel,2030,investment,400,EUR/kW,assumption
+Diesel,2030,FOM,10,%/year, paper
+Diesel,2030,VOM, 0.001, EUR/kWh, assumption
+geothermal,2030,investment,3000,EUR/kW,assumption
+geothermal,2030,FOM,3,%/year,assumption
+geothermal,2030,VOM,0.001,EUR/kWh,assumption
+geothermal,2030,lifetime,30,years,assumption
