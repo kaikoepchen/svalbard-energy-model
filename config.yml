@@ -1,0 +1,43 @@
+costs:
+    USD_to_EUR: 0.84 # June 2021
+    year: 2030
+    discountrate: 0.06  # Assumption
+    lifetime: 25
+
+storage:
+    thermal_enabled: True
+    max_hours: # edit computation of cost for batteries and H2, now both are stores
+        battery: 6
+        H2: 10
+
+wind:
+    # Available types: V25, V47, TUGE50, TUGE10, MPR
+    turbines: ["V47"]
+
+system:
+    heat_enabled: True
+
+snapshots:
+    # The start and end date have to lay within 2015-01-01 00:00:00
+    # and 2023-12-31 23:00:00
+
+    # One year run:
+    start: 2015-01-01 00:00:00
+    end: 2015-12-31 23:00:00 
+    
+    # Full run:
+    #start: 2015-01-01 00:00:00
+    #end: 2023-12-31 23:00:00
+
+    # Of the form "nh", where "n" is the resolution in hours
+    resolution: "1h"
+    # resolution: '3h'
+
+
+solving:
+  solver: "gurobi"
+  options:
+    solver: 'choose' #"ipm"
+    run_crossover: "off"
+    threads: 4
+

@@ -1,0 +1,8 @@
+pypsa>=0.26
+pandas
+numpy
+pyyaml
+xarray
+netcdf4
+matplotlib
+highspy
